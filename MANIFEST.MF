@@ -1,0 +1,15 @@
+Manifest-Version: 1.0
+Ant-Version: Apache Ant 1.9.6
+Created-By: 1.7.0_79-b15 (Oracle Corporation)
+Bundle-ManifestVersion: 2
+Bundle-Name: Soaclient
+Bundle-SymbolicName: de.tesis.plmware.soaclient
+Bundle-Version: 9.1.0
+Bundle-Vendor: TESIS PLMware GmbH
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6
+Require-Bundle: de.tesis.plmware.common.mix,de.tesis.plmware.common.t4
+ x,de.tesis.plmware.pipeserver,de.tesis.plmware.common.tcl
+Bundle-ClassPath: .
+Bundle-ActivationPolicy: lazy
+Import-Package: org.apache.axiom.om
+
